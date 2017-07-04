@@ -48,7 +48,7 @@ namespace BLHtoXYZ
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            FileStream file = File.Open("坐标转换（B卷）.txt", FileMode.Open); //@"E:\B卷-803组-贾俊何仲秋\BLHtoXYZ/坐标转换（B卷）.txt"
+            FileStream file = File.Open(@"../../坐标转换（B卷）.txt", FileMode.Open); //@"E:\B卷-803组-贾俊何仲秋\BLHtoXYZ/坐标转换（B卷）.txt"
             StreamReader Reader = new StreamReader(file);
             double a, df, L0, b, e2, ep2, M0;
             double[] W = new double[19];
